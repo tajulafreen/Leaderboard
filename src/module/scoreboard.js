@@ -13,8 +13,8 @@ const scorebox = async () => {
     li.classList.add('list');
     name.classList.add('name');
     score.classList.add('score');
-    name.textContent = `${dataget[i].user}`;
-    score.textContent = `${dataget[i].score}`;
+    name.textContent = JSON.stringify(dataget[i].user);
+    score.textContent = JSON.stringify(dataget[i].score);
     li.appendChild(name);
     li.appendChild(score);
     board.appendChild(li);
