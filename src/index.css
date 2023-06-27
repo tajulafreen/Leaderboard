@@ -1,0 +1,69 @@
+html,
+body {
+  margin: 15px;
+  padding: 0;
+  background-color: var(--primary);
+  font-family: sans-serif;
+}
+
+header h1 {
+  font-size: 42px;
+  margin-left: 3%;
+}
+
+.content-wrapper {
+  margin: 5%;
+  display: flex;
+  width: 90%;
+  gap: 20%;
+}
+
+.board-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.board-list h2,
+.add h2 {
+  font-size: 34px;
+}
+
+.board-list button {
+  height: 30px;
+  font-size: 20px;
+  width: 140px;
+  padding: 3px;
+  margin: 35px;
+  justify-content: center;
+}
+
+.add form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+}
+
+.submit {
+  height: 35px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  padding-left: 15px;
+}
+
+ul {
+  border: 2px solid black;
+  padding: 0;
+}
+
+li:nth-child(even) {
+  background-color: rgb(235, 235, 235);
+}
