@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  <h3><b>To Do List</b></h3>
+  <h3><b>Leader board</b></h3>
 
 </div>
 
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [TO-DO-LIST] <a name="about-project"></a>
+# 📖 [Leader Board] <a name="about-project"></a>
 
-**[TO-DO-LIST]** is an online list where user can add or remove diffrent work
+**[Leader-board]** is an online score list where user can add or remove their score
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="Demo"></a>
 
-- [Live Demo Link](https://tajulafreen.github.io/To-Do-List/dist/)
+- [Live Demo Link](https://tajulafreen.github.io/)
 
 <!-- GETTING STARTED -->
 
@@ -87,8 +87,8 @@ Clone this repository to your desired folder:
 
 ```
 cd my-folder
-git clone https://github.com/tajulafreen/to-do-list.git
-cd Awesome-Books
+git clone https://github.com/tajulafreen/leaderboard.git
+cd leaderboard
 ```
 
 ### Install
@@ -96,7 +96,7 @@ cd Awesome-Books
 Install this project with:
 
 ```
-  cd Awesome-Books
+  cd leaderboard
   npm i
 ```
 
