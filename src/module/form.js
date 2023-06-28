@@ -9,7 +9,7 @@ const refresh = document.querySelector('.refresh');
 const postfunction = () => {
   form.addEventListener('submit', (q) => {
     q.preventDefault();
-    creategame(username.ariaValueMax, userscore.value);
+    creategame(username.value, userscore.value);
     form.reset();
   });
 };
