@@ -8,17 +8,18 @@
 <body>
  <header><h1>Leader Board</h1></header>
  <section class="content-wrapper">
-  <div class="board-listt">
+  <div class="board">
    <div class="board-list">
    <h2>Recent Scores</h2>
     <button class="refresh">Refresh</button>
    </div>
+   <div class="board-listt"></div>
   </div>
   <div class="add"> 
     <h2>Add your Score</h2>
     <form class="adds">
-      <input type="text" class="name" placeholder="Your name...">
-     <input type="text" class="score" placeholder="Your score...">
+      <input type="text" class="name" placeholder="Your name..." maxlength="19" minlength="2">
+     <input type="" class="score" placeholder="Your score..."maxlength="5" required>
       <button class="submit">Submit</button>
       
     </form>

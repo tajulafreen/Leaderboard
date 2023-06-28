@@ -62,6 +62,7 @@ li {
 ul {
   border: 2px solid black;
   padding: 0;
+  width: 700px;
 }
 
 li:nth-child(even) {
