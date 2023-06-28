@@ -28,7 +28,7 @@ header h1 {
   font-size: 34px;
 }
 
- .refresh {
+.refresh {
   height: 30px;
   font-size: 20px;
   width: 140px;
@@ -36,7 +36,6 @@ header h1 {
   margin: 35px;
   justify-content: center;
   border: 2px solid black;
-  
 }
 
 .add form {
@@ -68,7 +67,7 @@ ul {
   border: 2px solid black;
   padding: 0;
   width: 600px;
-  max-height: 350px; 
+  max-height: 350px;
   overflow-y: scroll;
 }
 
