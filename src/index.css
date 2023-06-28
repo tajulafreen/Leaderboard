@@ -12,15 +12,18 @@ header h1 {
 }
 
 .content-wrapper {
-  margin: 5%;
+  margin-left: 10%;
   display: flex;
   width: 90%;
-  gap: 20%;
+  gap: 10%;
 }
 
 .board-list {
   display: flex;
   flex-direction: row;
+  width: 600px;
+  justify-content: space-between;
+  margin-right: 0;
 }
 
 .board-list h2,
@@ -28,16 +31,18 @@ header h1 {
   font-size: 34px;
 }
 
-.board-list button {
+.refresh {
   height: 30px;
   font-size: 20px;
   width: 140px;
   padding: 3px;
   margin: 35px;
   justify-content: center;
+  border: 2px solid black;
 }
 
 .add form {
+  margin-top: 45px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -46,10 +51,14 @@ header h1 {
 input {
   width: 300px;
   height: 35px;
+  border: 2px solid black;
 }
 
 .submit {
   height: 35px;
+  border: 2px solid black;
+  width: 100px;
+  margin-left: 68%;
 }
 
 li {
@@ -62,7 +71,9 @@ li {
 ul {
   border: 2px solid black;
   padding: 0;
-  width: 700px;
+  width: 565px;
+  max-height: 350px;
+  overflow-y: scroll;
 }
 
 li:nth-child(even) {
